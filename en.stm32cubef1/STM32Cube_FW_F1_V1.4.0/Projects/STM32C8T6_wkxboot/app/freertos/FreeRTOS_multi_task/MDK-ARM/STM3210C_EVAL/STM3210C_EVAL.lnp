@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"stm3210c_eval\cmsis_os.o"
+"stm3210c_eval\stm32f1xx_hal_rcc.o"
+"stm3210c_eval\stm32f1xx_hal_cortex.o"
+"stm3210c_eval\stm32f1xx_hal_gpio.o"
+"stm3210c_eval\stm32f1xx_hal_rcc_ex.o"
+"stm3210c_eval\stm32f1xx_hal.o"
+"stm3210c_eval\system_stm32f1xx.o"
+"stm3210c_eval\stm3210c_wkxboot.o"
+"stm3210c_eval\list.o"
+"stm3210c_eval\tasks.o"
+"stm3210c_eval\timers.o"
+"stm3210c_eval\queue.o"
+"stm3210c_eval\main.o"
+"stm3210c_eval\stm32f1xx_it.o"
+"stm3210c_eval\startup_stm32f103xb.o"
+"stm3210c_eval\heap_4.o"
+"stm3210c_eval\port.o"
+--library_type=microlib --strict --scatter "STM3210C_EVAL\STM3210C_EVAL.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM3210C_EVAL.map" -o STM3210C_EVAL\STM3210C_EVAL.axf
