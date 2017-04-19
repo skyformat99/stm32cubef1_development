@@ -47,6 +47,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "debug.h"
 #include "cmsis_os.h"
 
 #include "string.h"
@@ -191,7 +192,7 @@ int main(void)
   printf("*****  Test finished successfully. ** \n\r");
   printf("*****  current baudrate is:%d\n\r",UartHandle.Init.BaudRate);
   printf("*****  current coreclock is:%d Hz\n\r",SystemCoreClock);
-	
+  do_something();
 	//HAL_UART_Transmit_IT(&UartHandle,"hal_uart_transmit_it!",sizeof("hal_uart_transmit_it!"));
 	
 
@@ -306,7 +307,7 @@ static void uart_dma_Thread(void const *argument)
 			//HAL_UART_DMAStop(&UartHandle);
       HAL_UART_Transmit_DMA(&UartHandle,string2,strlen(string2));
 		  //HAL_UART_DMAStop(&UartHandle);
-			
+		osDelay(2000);	
       //count = osKernelSysTick() + 10000;
 		}
 		else
@@ -334,10 +335,12 @@ static void uart_it_Thread(void const *argument)
 	
 		if(osSemaphoreWait( sem_uart,1)==osOK)//uart2 is free
 		{
-			//HAL_UART_DMAStop(&UartHandle);
-      HAL_UART_Transmit_IT(&UartHandle,string1,strlen(string1));
-		
+	       //HAL_UART_DMAStop(&UartHandle);
+               //HAL_UART_Transmit_IT(&UartHandle,string1,strlen(string1));
+		debug("hello the message send from task1!\r\n");
+                osSemaphoreRelease(sem_uart);
       //count = osKernelSysTick() + 10000;
+                osDelay(2000);	
 		}
 		else
 		{

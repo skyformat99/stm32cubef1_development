@@ -1,20 +1,20 @@
-"D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Middlewares\Third_Party\FreeRTOS\Source\timers.c"
+"D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Middlewares\Third_Party\FreeRTOS\Source\timers.c"
 -std=c11
 -ferror-limit=100
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\Inc
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\Inc
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\..\..\..\..\..\Drivers\STM32F1xx_HAL_Driver\Inc
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\..\..\..\..\..\Drivers\STM32F1xx_HAL_Driver\Inc
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\..\..\..\..\..\Drivers\BSP\STM3210C_EVAL
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\..\..\..\..\..\Drivers\BSP\STM3210C_EVAL
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\src\flashloader\NXP\FlashQN9080\chip_qn908x\cmsis
 -I
@@ -24,19 +24,19 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc\c
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\Inc
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32C8T6_wkxboot\app\freertos\FreeRTOS_multi_task\Inc
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Drivers\CMSIS\Device\ST\STM32F1xx\Include
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Drivers\CMSIS\Device\ST\STM32F1xx\Include
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Drivers\STM32F1xx_HAL_Driver\Inc
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Drivers\STM32F1xx_HAL_Driver\Inc
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Drivers\BSP\STM3210C_EVAL
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Drivers\BSP\STM3210C_EVAL
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS
 -I
-D:\development\stm32\src_code\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Middlewares\Third_Party\FreeRTOS\Source\include
+D:\development\stm32\src_code\project_v5_stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Middlewares\Third_Party\FreeRTOS\Source\include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\src\flashloader\NXP\FlashQN9080\chip_qn908x\cmsis
 -I
@@ -301,6 +301,7 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Include
 -DUSE_HAL_DRIVER=1
 -DSTM32F103xB=1
 -DUSE_STM3210C_wkxboot=1
+-DDEBUG=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME=u8"C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.0\\arm\\INC\\c\\DLib_Config_Full.h"
 -D_DLIB_CONFIG_FILE_STRING=u8"C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.0\\arm\\INC\\c\\DLib_Config_Full.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.11.1.13263/W32 for ARM"

@@ -214,6 +214,7 @@
                     <state>USE_HAL_DRIVER</state>
                     <state>STM32F103xB</state>
                     <state>USE_STM3210C_wkxboot</state>
+                    <state>DEBUG=1</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
@@ -221,11 +222,11 @@
                 </option>
                 <option>
                     <name>CCPreprocComments</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CCPreprocLine</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CCListCFile</name>
@@ -233,11 +234,11 @@
                 </option>
                 <option>
                     <name>CCListCMnemonics</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CCListCMessages</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CCListAssFile</name>
@@ -245,7 +246,7 @@
                 </option>
                 <option>
                     <name>CCListAssSource</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CCEnableRemarks</name>
@@ -314,7 +315,7 @@
                 </option>
                 <option>
                     <name>CCCompilerRuntimeInfo</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IFpuProcessor</name>
@@ -2054,6 +2055,9 @@ $PROJ_DIR$\..\Inc</state>
         </group>
         <group>
             <name>User</name>
+            <file>
+                <name>$PROJ_DIR$\..\Src\debug.c</name>
+            </file>
             <file>
                 <name>$PROJ_DIR$\..\Src\main.c</name>
             </file>
