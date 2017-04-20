@@ -1,0 +1,1811 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.11.1.13263/W32 for ARM       20/Apr/2017  15:45:41
+# Copyright 1999-2017 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\Src\main.c
+#    Command line =  
+#        -f C:\Users\wkxbo\AppData\Local\Temp\EWD00A.tmp
+#        (D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\Src\main.c
+#        -D USE_HAL_DRIVER -D STM32F103xE -D USE_STM32F103ZET6_JJDK_ZK_01_V5 -D
+#        DEBUG=1 -lC
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\EWARM\DEBUG\List
+#        -lA
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\EWARM\DEBUG\List
+#        -o
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\EWARM\DEBUG\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M3 -e --fpu=None --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench 8.0\arm\INC\c\DLib_Config_Full.h"
+#        -I
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\EWARM\..\Inc\
+#        -I
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\
+#        -I
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\EWARM\..\..\..\..\..\..\Drivers\STM32F1xx_HAL_Driver\Inc\
+#        -I
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\EWARM\..\..\..\..\..\..\Drivers\BSP\STM3210C_EVAL\
+#        -I
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\
+#        -I
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\
+#        -I
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\
+#        -I "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.0\arm\src\flashloader\NXP\FlashQN9080\chip_qn908x\cmsis\" -On
+#        --use_c++_inline -I "C:\Program Files (x86)\IAR Systems\Embedded
+#        Workbench 8.0\arm\CMSIS\Include\")
+#    Locale       =  C
+#    List file    =  
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\EWARM\DEBUG\List\main.lst
+#    Object file  =  
+#        D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\EWARM\DEBUG\Obj\main.o
+#
+###############################################################################
+
+D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\Src\main.c
+      1          /**
+      2            ******************************************************************************
+      3            * @file    FreeRTOS/FreeRTOS_ThreadCreation/Src/main.c
+      4            * @author  MCD Application Team
+      5            * @version V1.4.0
+      6            * @date    29-April-2016
+      7            * @brief   Main program body
+      8            ******************************************************************************
+      9            * @attention
+     10            *
+     11            * <h2><center>&copy; Copyright © 2016 STMicroelectronics International N.V. 
+     12            * All rights reserved.</center></h2>
+     13            *
+     14            * Redistribution and use in source and binary forms, with or without 
+     15            * modification, are permitted, provided that the following conditions are met:
+     16            *
+     17            * 1. Redistribution of source code must retain the above copyright notice, 
+     18            *    this list of conditions and the following disclaimer.
+     19            * 2. Redistributions in binary form must reproduce the above copyright notice,
+     20            *    this list of conditions and the following disclaimer in the documentation
+     21            *    and/or other materials provided with the distribution.
+     22            * 3. Neither the name of STMicroelectronics nor the names of other 
+     23            *    contributors to this software may be used to endorse or promote products 
+     24            *    derived from this software without specific written permission.
+     25            * 4. This software, including modifications and/or derivative works of this 
+     26            *    software, must execute solely and exclusively on microcontroller or
+     27            *    microprocessor devices manufactured by or for STMicroelectronics.
+     28            * 5. Redistribution and use of this software other than as permitted under 
+     29            *    this license is void and will automatically terminate your rights under 
+     30            *    this license. 
+     31            *
+     32            * THIS SOFTWARE IS PROVIDED BY STMICROELECTRONICS AND CONTRIBUTORS "AS IS" 
+     33            * AND ANY EXPRESS, IMPLIED OR STATUTORY WARRANTIES, INCLUDING, BUT NOT 
+     34            * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+     35            * PARTICULAR PURPOSE AND NON-INFRINGEMENT OF THIRD PARTY INTELLECTUAL PROPERTY
+     36            * RIGHTS ARE DISCLAIMED TO THE FULLEST EXTENT PERMITTED BY LAW. IN NO EVENT 
+     37            * SHALL STMICROELECTRONICS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+     38            * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+     39            * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
+     40            * OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
+     41            * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING 
+     42            * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+     43            * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     44            *
+     45            ******************************************************************************
+     46            */
+     47          
+     48          /* Includes ------------------------------------------------------------------*/
+     49          #include "main.h"
+     50          #include "debug.h"
+
+  #define DEBUG(format, ...) printf("[%16d] "" File:%s, Line:%d, Function:%s\r\n"format, osKernelSysTick(),__FILE__, __LINE__ , __FUNCTION__, ##__VA_ARGS__); 
+          ^
+"D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\Inc\debug.h",5  Warning[Pe047]: 
+          incompatible redefinition of macro "DEBUG" (declared at line 5)
+     51          #include "cmsis_os.h"
+     52          
+     53          #include "string.h"
+     54          
+     55          
+     56          /* Private typedef -----------------------------------------------------------*/
+     57          /* Private define ------------------------------------------------------------*/
+     58          /* Private macro -------------------------------------------------------------*/
+     59          /* Private variables ---------------------------------------------------------*/
+
+   \                                 In section .bss, align 4
+     60          osThreadId LEDThread1Handle, uart_dma_ThreadHandle,uart_it_ThreadHandle;
+   \                     LEDThread1Handle:
+   \   00000000                      DS8 4
+
+   \                                 In section .bss, align 4
+   \                     uart_dma_ThreadHandle:
+   \   00000000                      DS8 4
+
+   \                                 In section .bss, align 4
+   \                     uart_it_ThreadHandle:
+   \   00000000                      DS8 4
+     61          
+
+   \                                 In section .bss, align 4
+     62          UART_HandleTypeDef UartHandle;
+   \                     UartHandle:
+   \   00000000                      DS8 64
+
+   \                                 In section .bss, align 4
+     63          DMA_HandleTypeDef dma_handle,dma_handle_recv;
+   \                     dma_handle:
+   \   00000000                      DS8 56
+
+   \                                 In section .bss, align 4
+   \                     dma_handle_recv:
+   \   00000000                      DS8 56
+     64          /* Private function prototypes -----------------------------------------------*/
+     65          static void LED_Thread1(void const *argument);
+     66          static void uart_dma_Thread(void const *argument);
+     67          static void uart_it_Thread(void const *argument);
+     68          
+     69          void SystemClock_Config(void);
+     70          
+     71          /* Private functions ---------------------------------------------------------*/
+     72          static void dma_transmit_complete_cb(DMA_HandleTypeDef *dma_handle);
+     73          static void dma_transmit_half_cb(DMA_HandleTypeDef *dma_handle);
+     74          static void dma_transmit_error_cb(DMA_HandleTypeDef *dma_handle);
+     75          
+     76          static void Error_Handler(void);
+     77          
+     78          #define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+     79          
+
+   \                                 In section .data, align 4
+     80           uint8_t *string1="what the fuck!!";
+   \                     string1:
+   \   00000000   0x........         DC32 ?_0
+
+   \                                 In section .data, align 4
+     81           uint8_t *string2="hello world! i got it!";
+   \                     string2:
+   \   00000000   0x........         DC32 ?_1
+
+   \                                 In section .bss, align 4
+     82           uint8_t recv_store[20];
+   \                     recv_store:
+   \   00000000                      DS8 20
+     83          	
+
+   \                                 In section .rodata, align 4
+     84          osSemaphoreDef(def_uart);
+   \                     os_semaphore_def_def_uart:
+   \   00000000   0x00000000         DC32 0
+
+   \                                 In section .bss, align 4
+     85          osSemaphoreId sem_uart;
+   \                     sem_uart:
+   \   00000000                      DS8 4
+     86          /**
+     87            * @brief  Main program
+     88            * @param  None
+     89            * @retval None
+     90            */
+
+   \                                 In section .text, align 2, keep-with-next
+     91          int main(void)
+     92          {
+   \                     main: (+1)
+   \   00000000   0xB500             PUSH     {LR}
+   \   00000002   0xB08F             SUB      SP,SP,#+60
+     93            /* STM32F107xC HAL library initialization:
+     94                 - Configure the Flash prefetch
+     95                 - Systick timer is configured by default as source of time base, but user 
+     96                   can eventually implement his proper time base source (a general purpose 
+     97                   timer for example or other time source), keeping in mind that Time base 
+     98                   duration should be kept 1ms since PPP_TIMEOUT_VALUEs are defined and 
+     99                   handled in milliseconds basis.
+    100                 - Set NVIC Group Priority to 4
+    101                 - Low Level Initialization
+    102               */
+    103            HAL_Init();
+   \   00000004   0x.... 0x....      BL       HAL_Init
+    104          
+    105            /* Configure the System clock to 72 MHz */
+    106            SystemClock_Config();
+   \   00000008   0x.... 0x....      BL       SystemClock_Config
+    107          
+    108            /* Initialize LEDs */
+    109            BSP_LED_Init(LED1);
+   \   0000000C   0x2000             MOVS     R0,#+0
+   \   0000000E   0x.... 0x....      BL       BSP_LED_Init
+    110            //BSP_LED_Init(LED2);
+    111           
+    112          	 UartHandle.Instance        = EVAL_COM1;
+   \   00000012   0x.... 0x....      LDR.W    R0,??DataTable10  ;; 0x40004400
+   \   00000016   0x.... 0x....      LDR.W    R1,??DataTable10_1
+   \   0000001A   0x6008             STR      R0,[R1, #+0]
+    113          
+    114            UartHandle.Init.BaudRate   = 115200;
+   \   0000001C   0xF45F 0x30E1      MOVS     R0,#+115200
+   \   00000020   0x.... 0x....      LDR.W    R1,??DataTable10_1
+   \   00000024   0x6048             STR      R0,[R1, #+4]
+    115            UartHandle.Init.WordLength = UART_WORDLENGTH_8B;
+   \   00000026   0x2000             MOVS     R0,#+0
+   \   00000028   0x.... 0x....      LDR.W    R1,??DataTable10_1
+   \   0000002C   0x6088             STR      R0,[R1, #+8]
+    116            UartHandle.Init.StopBits   = UART_STOPBITS_1;
+   \   0000002E   0x2000             MOVS     R0,#+0
+   \   00000030   0x.... 0x....      LDR.W    R1,??DataTable10_1
+   \   00000034   0x60C8             STR      R0,[R1, #+12]
+    117            UartHandle.Init.Parity     = UART_PARITY_NONE;
+   \   00000036   0x2000             MOVS     R0,#+0
+   \   00000038   0x.... 0x....      LDR.W    R1,??DataTable10_1
+   \   0000003C   0x6108             STR      R0,[R1, #+16]
+    118            UartHandle.Init.HwFlowCtl  = UART_HWCONTROL_NONE;
+   \   0000003E   0x2000             MOVS     R0,#+0
+   \   00000040   0x.... 0x....      LDR.W    R1,??DataTable10_1
+   \   00000044   0x6188             STR      R0,[R1, #+24]
+    119            UartHandle.Init.Mode       = UART_MODE_TX_RX;
+   \   00000046   0x200C             MOVS     R0,#+12
+   \   00000048   0x.... 0x....      LDR.W    R1,??DataTable10_1
+   \   0000004C   0x6148             STR      R0,[R1, #+20]
+    120            
+    121            UartHandle.hdmatx=&dma_handle;
+   \   0000004E   0x.... 0x....      LDR.W    R0,??DataTable10_2
+   \   00000052   0x.... 0x....      LDR.W    R1,??DataTable10_1
+   \   00000056   0x6308             STR      R0,[R1, #+48]
+    122            UartHandle.hdmarx=&dma_handle_recv;
+   \   00000058   0x.... 0x....      LDR.W    R0,??DataTable10_3
+   \   0000005C   0x.... 0x....      LDR.W    R1,??DataTable10_1
+   \   00000060   0x6348             STR      R0,[R1, #+52]
+    123          	
+    124          		
+    125            if (HAL_UART_Init(&UartHandle) != HAL_OK)
+   \   00000062   0x.... 0x....      LDR.W    R0,??DataTable10_1
+   \   00000066   0x.... 0x....      BL       HAL_UART_Init
+   \   0000006A   0x2800             CMP      R0,#+0
+   \   0000006C   0xD001             BEQ.N    ??main_0
+    126            {
+    127              /* Initialization Error */
+    128              Error_Handler();
+   \   0000006E   0x.... 0x....      BL       Error_Handler
+    129            }
+    130          
+    131          //dma 
+    132          
+    133          	__HAL_RCC_DMA1_CLK_ENABLE();
+   \                     ??main_0: (+1)
+   \   00000072   0x.... 0x....      LDR.W    R0,??DataTable10_4  ;; 0x40021014
+   \   00000076   0x6800             LDR      R0,[R0, #+0]
+   \   00000078   0xF050 0x0001      ORRS     R0,R0,#0x1
+   \   0000007C   0x.... 0x....      LDR.W    R1,??DataTable10_4  ;; 0x40021014
+   \   00000080   0x6008             STR      R0,[R1, #+0]
+   \   00000082   0x.... 0x....      LDR.W    R0,??DataTable10_4  ;; 0x40021014
+   \   00000086   0x6800             LDR      R0,[R0, #+0]
+   \   00000088   0xF010 0x0001      ANDS     R0,R0,#0x1
+   \   0000008C   0x9000             STR      R0,[SP, #+0]
+   \   0000008E   0x9800             LDR      R0,[SP, #+0]
+    134          	dma_handle.Parent=&UartHandle;
+   \   00000090   0x.... 0x....      LDR.W    R0,??DataTable10_1
+   \   00000094   0x.... 0x....      LDR.W    R1,??DataTable10_2
+   \   00000098   0x6248             STR      R0,[R1, #+36]
+    135          	dma_handle.Instance=DMA_INSTANCE;
+   \   0000009A   0x.... 0x....      LDR.W    R0,??DataTable10_5  ;; 0x40020080
+   \   0000009E   0x.... 0x....      LDR.W    R1,??DataTable10_2
+   \   000000A2   0x6008             STR      R0,[R1, #+0]
+    136          	
+    137          	dma_handle.Init.Direction=DMA_MEMORY_TO_PERIPH;//DMA_MEMORY_TO_MEMORY;
+   \   000000A4   0x2010             MOVS     R0,#+16
+   \   000000A6   0x.... 0x....      LDR.W    R1,??DataTable10_2
+   \   000000AA   0x6048             STR      R0,[R1, #+4]
+    138          	dma_handle.Init.MemDataAlignment=DMA_MDATAALIGN_BYTE;
+   \   000000AC   0x2000             MOVS     R0,#+0
+   \   000000AE   0x.... 0x....      LDR.W    R1,??DataTable10_2
+   \   000000B2   0x6148             STR      R0,[R1, #+20]
+    139          	dma_handle.Init.MemInc=DMA_MINC_ENABLE;
+   \   000000B4   0x2080             MOVS     R0,#+128
+   \   000000B6   0x.... 0x....      LDR.W    R1,??DataTable10_2
+   \   000000BA   0x60C8             STR      R0,[R1, #+12]
+    140          	dma_handle.Init.PeriphDataAlignment=DMA_PDATAALIGN_BYTE;
+   \   000000BC   0x2000             MOVS     R0,#+0
+   \   000000BE   0x.... 0x....      LDR.W    R1,??DataTable10_2
+   \   000000C2   0x6108             STR      R0,[R1, #+16]
+    141          	dma_handle.Init.PeriphInc=DMA_PINC_DISABLE;
+   \   000000C4   0x2000             MOVS     R0,#+0
+   \   000000C6   0x.... 0x....      LDR.W    R1,??DataTable10_2
+   \   000000CA   0x6088             STR      R0,[R1, #+8]
+    142          	
+    143          	dma_handle.Init.Priority=DMA_PRIORITY_LOW;
+   \   000000CC   0x2000             MOVS     R0,#+0
+   \   000000CE   0x.... 0x....      LDR.W    R1,??DataTable10_2
+   \   000000D2   0x61C8             STR      R0,[R1, #+28]
+    144          	dma_handle.Init.Mode=DMA_NORMAL;
+   \   000000D4   0x2000             MOVS     R0,#+0
+   \   000000D6   0x.... 0x....      LDR.W    R1,??DataTable10_2
+   \   000000DA   0x6188             STR      R0,[R1, #+24]
+    145          	dma_handle.State=HAL_DMA_STATE_RESET;
+   \   000000DC   0x2000             MOVS     R0,#+0
+   \   000000DE   0x....             LDR.N    R1,??DataTable10_2
+   \   000000E0   0xF881 0x0021      STRB     R0,[R1, #+33]
+    146          	dma_handle.XferCpltCallback=dma_transmit_complete_cb;
+   \   000000E4   0x.... 0x....      ADR.W    R0,dma_transmit_complete_cb
+   \   000000E8   0x....             LDR.N    R1,??DataTable10_2
+   \   000000EA   0x6288             STR      R0,[R1, #+40]
+    147          	dma_handle.XferHalfCpltCallback=dma_transmit_half_cb;
+   \   000000EC   0x.... 0x....      ADR.W    R0,dma_transmit_half_cb
+   \   000000F0   0x....             LDR.N    R1,??DataTable10_2
+   \   000000F2   0x62C8             STR      R0,[R1, #+44]
+    148          	dma_handle.XferErrorCallback=dma_transmit_error_cb;
+   \   000000F4   0x.... 0x....      ADR.W    R0,dma_transmit_error_cb
+   \   000000F8   0x....             LDR.N    R1,??DataTable10_2
+   \   000000FA   0x6308             STR      R0,[R1, #+48]
+    149          	
+    150          	if(HAL_OK!=HAL_DMA_Init(&dma_handle))
+   \   000000FC   0x....             LDR.N    R0,??DataTable10_2
+   \   000000FE   0x.... 0x....      BL       HAL_DMA_Init
+   \   00000102   0x2800             CMP      R0,#+0
+   \   00000104   0xD002             BEQ.N    ??main_1
+    151          	{
+    152          		printf("hal_dma_init error!");
+   \   00000106   0x....             LDR.N    R0,??DataTable10_6
+   \   00000108   0x.... 0x....      BL       printf
+    153          	}
+    154                  
+    155                 
+    156          	//dma_uart recv init
+    157                  dma_handle_recv.Parent=&UartHandle;
+   \                     ??main_1: (+1)
+   \   0000010C   0x....             LDR.N    R0,??DataTable10_1
+   \   0000010E   0x....             LDR.N    R1,??DataTable10_3
+   \   00000110   0x6248             STR      R0,[R1, #+36]
+    158          	dma_handle_recv.Instance=DMA_INSTANCE_RECV;
+   \   00000112   0x....             LDR.N    R0,??DataTable10_7  ;; 0x4002006c
+   \   00000114   0x....             LDR.N    R1,??DataTable10_3
+   \   00000116   0x6008             STR      R0,[R1, #+0]
+    159          	
+    160          	dma_handle_recv.Init.Direction=DMA_PERIPH_TO_MEMORY;//DMA_MEMORY_TO_MEMORY;
+   \   00000118   0x2000             MOVS     R0,#+0
+   \   0000011A   0x....             LDR.N    R1,??DataTable10_3
+   \   0000011C   0x6048             STR      R0,[R1, #+4]
+    161          	dma_handle_recv.Init.MemDataAlignment=DMA_MDATAALIGN_BYTE;
+   \   0000011E   0x2000             MOVS     R0,#+0
+   \   00000120   0x....             LDR.N    R1,??DataTable10_3
+   \   00000122   0x6148             STR      R0,[R1, #+20]
+    162          	dma_handle_recv.Init.MemInc=DMA_MINC_ENABLE;
+   \   00000124   0x2080             MOVS     R0,#+128
+   \   00000126   0x....             LDR.N    R1,??DataTable10_3
+   \   00000128   0x60C8             STR      R0,[R1, #+12]
+    163          	dma_handle_recv.Init.PeriphDataAlignment=DMA_PDATAALIGN_BYTE;
+   \   0000012A   0x2000             MOVS     R0,#+0
+   \   0000012C   0x....             LDR.N    R1,??DataTable10_3
+   \   0000012E   0x6108             STR      R0,[R1, #+16]
+    164          	dma_handle_recv.Init.PeriphInc=DMA_PINC_DISABLE;
+   \   00000130   0x2000             MOVS     R0,#+0
+   \   00000132   0x....             LDR.N    R1,??DataTable10_3
+   \   00000134   0x6088             STR      R0,[R1, #+8]
+    165          	
+    166          	dma_handle_recv.Init.Priority=DMA_PRIORITY_VERY_HIGH;
+   \   00000136   0xF44F 0x5040      MOV      R0,#+12288
+   \   0000013A   0x....             LDR.N    R1,??DataTable10_3
+   \   0000013C   0x61C8             STR      R0,[R1, #+28]
+    167          	dma_handle_recv.Init.Mode=DMA_NORMAL;
+   \   0000013E   0x2000             MOVS     R0,#+0
+   \   00000140   0x....             LDR.N    R1,??DataTable10_3
+   \   00000142   0x6188             STR      R0,[R1, #+24]
+    168          	dma_handle_recv.State=HAL_DMA_STATE_RESET;
+   \   00000144   0x2000             MOVS     R0,#+0
+   \   00000146   0x....             LDR.N    R1,??DataTable10_3
+   \   00000148   0xF881 0x0021      STRB     R0,[R1, #+33]
+    169          	dma_handle_recv.XferCpltCallback=NULL;
+   \   0000014C   0x2000             MOVS     R0,#+0
+   \   0000014E   0x....             LDR.N    R1,??DataTable10_3
+   \   00000150   0x6288             STR      R0,[R1, #+40]
+    170          	dma_handle_recv.XferHalfCpltCallback=NULL;
+   \   00000152   0x2000             MOVS     R0,#+0
+   \   00000154   0x....             LDR.N    R1,??DataTable10_3
+   \   00000156   0x62C8             STR      R0,[R1, #+44]
+    171          	dma_handle_recv.XferErrorCallback=NULL;
+   \   00000158   0x2000             MOVS     R0,#+0
+   \   0000015A   0x....             LDR.N    R1,??DataTable10_3
+   \   0000015C   0x6308             STR      R0,[R1, #+48]
+    172          	
+    173          	if(HAL_OK!=HAL_DMA_Init(&dma_handle_recv))
+   \   0000015E   0x....             LDR.N    R0,??DataTable10_3
+   \   00000160   0x.... 0x....      BL       HAL_DMA_Init
+   \   00000164   0x2800             CMP      R0,#+0
+   \   00000166   0xD002             BEQ.N    ??main_2
+    174          	{
+    175          		printf("hal_dma_recv_init error!");
+   \   00000168   0x....             LDR.N    R0,??DataTable10_8
+   \   0000016A   0x.... 0x....      BL       printf
+    176          	}
+    177                  
+    178                 
+    179                  
+    180          	HAL_NVIC_SetPriority(DMA_INSTANCE_IRQ, 6, 0);
+   \                     ??main_2: (+1)
+   \   0000016E   0x2200             MOVS     R2,#+0
+   \   00000170   0x2106             MOVS     R1,#+6
+   \   00000172   0x2011             MOVS     R0,#+17
+   \   00000174   0x.... 0x....      BL       HAL_NVIC_SetPriority
+    181                  HAL_NVIC_SetPriority(DMA_INSTANCE_RECV_IRQ, 6, 0);
+   \   00000178   0x2200             MOVS     R2,#+0
+   \   0000017A   0x2106             MOVS     R1,#+6
+   \   0000017C   0x2010             MOVS     R0,#+16
+   \   0000017E   0x.... 0x....      BL       HAL_NVIC_SetPriority
+    182                  HAL_NVIC_SetPriority(UART_INSTANCE_IRQ, 6, 0);
+   \   00000182   0x2200             MOVS     R2,#+0
+   \   00000184   0x2106             MOVS     R1,#+6
+   \   00000186   0x2026             MOVS     R0,#+38
+   \   00000188   0x.... 0x....      BL       HAL_NVIC_SetPriority
+    183          
+    184          	  /* Enable the DMA STREAM global Interrupt */
+    185                  HAL_NVIC_EnableIRQ(DMA_INSTANCE_IRQ);
+   \   0000018C   0x2011             MOVS     R0,#+17
+   \   0000018E   0x.... 0x....      BL       HAL_NVIC_EnableIRQ
+    186                  HAL_NVIC_EnableIRQ(DMA_INSTANCE_RECV_IRQ);
+   \   00000192   0x2010             MOVS     R0,#+16
+   \   00000194   0x.... 0x....      BL       HAL_NVIC_EnableIRQ
+    187          	HAL_NVIC_EnableIRQ(UART_INSTANCE_IRQ);
+   \   00000198   0x2026             MOVS     R0,#+38
+   \   0000019A   0x.... 0x....      BL       HAL_NVIC_EnableIRQ
+    188          
+    189            //start  output
+    190            /* Output a message on Hyperterminal using printf function */
+    191            printf("\n\r UART Printf Example: retarget the C library printf function to the UART\n\r");
+   \   0000019E   0x....             LDR.N    R0,??DataTable10_9
+   \   000001A0   0x.... 0x....      BL       printf
+    192            printf("*****  Test finished successfully. ** \n\r");
+   \   000001A4   0x....             LDR.N    R0,??DataTable10_10
+   \   000001A6   0x.... 0x....      BL       printf
+    193            printf("*****  current baudrate is:%d\n\r",UartHandle.Init.BaudRate);
+   \   000001AA   0x....             LDR.N    R0,??DataTable10_1
+   \   000001AC   0x6841             LDR      R1,[R0, #+4]
+   \   000001AE   0x....             LDR.N    R0,??DataTable10_11
+   \   000001B0   0x.... 0x....      BL       printf
+    194            printf("*****  current coreclock is:%d Hz\n\r",SystemCoreClock);
+   \   000001B4   0x....             LDR.N    R0,??DataTable10_12
+   \   000001B6   0x6801             LDR      R1,[R0, #+0]
+   \   000001B8   0x....             LDR.N    R0,??DataTable10_13
+   \   000001BA   0x.... 0x....      BL       printf
+    195            do_something();
+   \   000001BE   0x.... 0x....      BL       do_something
+    196          	//HAL_UART_Transmit_IT(&UartHandle,"hal_uart_transmit_it!",sizeof("hal_uart_transmit_it!"));
+    197          	
+    198          
+    199          	
+    200          
+    201          	
+    202          	
+    203          
+    204            /* Thread 1 definition */
+    205            osThreadDef(LED1, LED_Thread1, osPriorityNormal, 0, configMINIMAL_STACK_SIZE);
+   \   000001C2   0xA80A             ADD      R0,SP,#+40
+   \   000001C4   0x....             LDR.N    R1,??DataTable10_14
+   \   000001C6   0x2214             MOVS     R2,#+20
+   \   000001C8   0x.... 0x....      BL       __aeabi_memcpy4
+    206            
+    207            /*  uart it Thread  definition */
+    208            osThreadDef(uart_it, uart_it_Thread, osPriorityNormal, 0, 256);
+   \   000001CC   0xA805             ADD      R0,SP,#+20
+   \   000001CE   0x....             LDR.N    R1,??DataTable10_15
+   \   000001D0   0x2214             MOVS     R2,#+20
+   \   000001D2   0x.... 0x....      BL       __aeabi_memcpy4
+    209          	 /*  uart dma Thread  definition */
+    210            osThreadDef(uart_dma, uart_dma_Thread, osPriorityNormal, 0, 256);
+   \   000001D6   0x4668             MOV      R0,SP
+   \   000001D8   0x....             LDR.N    R1,??DataTable10_16
+   \   000001DA   0x2214             MOVS     R2,#+20
+   \   000001DC   0x.... 0x....      BL       __aeabi_memcpy4
+    211          
+    212            /* Start thread 1 */
+    213            LEDThread1Handle = osThreadCreate(osThread(LED1), NULL);
+   \   000001E0   0x2100             MOVS     R1,#+0
+   \   000001E2   0xA80A             ADD      R0,SP,#+40
+   \   000001E4   0x.... 0x....      BL       osThreadCreate
+   \   000001E8   0x....             LDR.N    R1,??DataTable10_17
+   \   000001EA   0x6008             STR      R0,[R1, #+0]
+    214          	uart_dma_ThreadHandle = osThreadCreate(osThread(uart_dma), NULL);
+   \   000001EC   0x2100             MOVS     R1,#+0
+   \   000001EE   0x4668             MOV      R0,SP
+   \   000001F0   0x.... 0x....      BL       osThreadCreate
+   \   000001F4   0x....             LDR.N    R1,??DataTable10_18
+   \   000001F6   0x6008             STR      R0,[R1, #+0]
+    215          	uart_it_ThreadHandle = osThreadCreate(osThread(uart_it), NULL);
+   \   000001F8   0x2100             MOVS     R1,#+0
+   \   000001FA   0xA805             ADD      R0,SP,#+20
+   \   000001FC   0x.... 0x....      BL       osThreadCreate
+   \   00000200   0x....             LDR.N    R1,??DataTable10_19
+   \   00000202   0x6008             STR      R0,[R1, #+0]
+    216          
+    217            /* Start thread 2 */
+    218            //LEDThread2Handle = osThreadCreate(osThread(LED2), NULL);
+    219          
+    220          
+    221          	 
+    222          	 
+    223            /* Start scheduler */
+    224            osKernelStart();
+   \   00000204   0x.... 0x....      BL       osKernelStart
+    225          
+    226            /* We should never get here as control is now taken by the scheduler */
+    227            for (;;);
+   \                     ??main_3: (+1)
+   \   00000208   0xE7FE             B.N      ??main_3
+    228          
+    229          }
+
+   \                                 In section .rodata, align 4
+   \                     ?_21:
+   \   00000000   0x........         DC32 ?_8, LED_Thread1
+   \              0x........   
+   \   00000008   0x0000             DC16 0
+   \   0000000A   0x00 0x00          DC8 0, 0
+   \   0000000C   0x00000000         DC32 0, 128
+   \              0x00000080   
+
+   \                                 In section .rodata, align 4
+   \                     ?_22:
+   \   00000000   0x........         DC32 ?_9, uart_it_Thread
+   \              0x........   
+   \   00000008   0x0000             DC16 0
+   \   0000000A   0x00 0x00          DC8 0, 0
+   \   0000000C   0x00000000         DC32 0, 256
+   \              0x00000100   
+
+   \                                 In section .rodata, align 4
+   \                     ?_23:
+   \   00000000   0x........         DC32 ?_10, uart_dma_Thread
+   \              0x........   
+   \   00000008   0x0000             DC16 0
+   \   0000000A   0x00 0x00          DC8 0, 0
+   \   0000000C   0x00000000         DC32 0, 256
+   \              0x00000100   
+    230          
+    231          /**
+    232            * @brief  This function is executed in case of error occurrence.
+    233            * @param  None
+    234            * @retval None
+    235            */
+
+   \                                 In section .text, align 2, keep-with-next
+    236          static void Error_Handler(void)
+    237          {
+    238            /* Turn LED_RED on */
+    239            //BSP_LED_On(LED_RED);
+    240            while (1)
+   \                     Error_Handler: (+1)
+   \                     ??Error_Handler_0: (+1)
+   \   00000000   0xE7FE             B.N      ??Error_Handler_0
+    241            {
+    242            }
+    243          }
+    244          
+    245          /**
+    246            * @brief  Toggle LED1 thread
+    247            * @param  thread not used
+    248            * @retval None
+    249            */
+
+   \                                 In section .text, align 2, keep-with-next
+    250          static void LED_Thread1(void const *argument)
+    251          {
+   \                     LED_Thread1: (+1)
+   \   00000000   0xE92D 0x4FF8      PUSH     {R3-R11,LR}
+   \   00000004   0x0004             MOVS     R4,R0
+    252          
+    253            (void) argument;
+    254            uint32_t cnt_change=0;
+   \   00000006   0x2500             MOVS     R5,#+0
+    255            uint16_t pwm_period=20;//period=20ms,pwm =50hz
+   \   00000008   0x2614             MOVS     R6,#+20
+    256            uint16_t change_period=250;//Ã¿400ms±ä»¯Ò»´Î
+   \   0000000A   0x27FA             MOVS     R7,#+250
+    257            uint16_t change_percent=5;//Ã¿´ÎÕ¼¿Õ±È±ä»¯µÄ°Ù·ÖÁ¿
+   \   0000000C   0xF05F 0x0805      MOVS     R8,#+5
+    258            uint16_t dc_change_time=pwm_period*change_percent/100;
+   \   00000010   0xB2B6             UXTH     R6,R6            ;; ZeroExt  R6,R6,#+16,#+16
+   \   00000012   0xFA1F 0xF888      UXTH     R8,R8            ;; ZeroExt  R8,R8,#+16,#+16
+   \   00000016   0xFB08 0xF006      MUL      R0,R8,R6
+   \   0000001A   0x2164             MOVS     R1,#+100
+   \   0000001C   0xFB90 0xFBF1      SDIV     R11,R0,R1
+    259            uint16_t pwm_on_time;
+    260            uint16_t pwm_off_time;
+    261            
+    262             HAL_UART_Receive_DMA( &UartHandle,recv_store,20);
+   \   00000020   0x2214             MOVS     R2,#+20
+   \   00000022   0x....             LDR.N    R1,??DataTable10_20
+   \   00000024   0x....             LDR.N    R0,??DataTable10_1
+   \   00000026   0x.... 0x....      BL       HAL_UART_Receive_DMA
+    263          
+    264            pwm_on_time=pwm_period;//100% duty cycle
+   \   0000002A   0x46B1             MOV      R9,R6
+    265            for (;;)
+    266            {
+    267              if(pwm_on_time>dc_change_time)
+   \                     ??LED_Thread1_0: (+1)
+   \   0000002C   0x4658             MOV      R0,R11
+   \   0000002E   0x4649             MOV      R1,R9
+   \   00000030   0xB280             UXTH     R0,R0            ;; ZeroExt  R0,R0,#+16,#+16
+   \   00000032   0xB289             UXTH     R1,R1            ;; ZeroExt  R1,R1,#+16,#+16
+   \   00000034   0x4288             CMP      R0,R1
+   \   00000036   0xD202             BCS.N    ??LED_Thread1_1
+    268              pwm_on_time-=dc_change_time;
+   \   00000038   0xEBB9 0x090B      SUBS     R9,R9,R11
+   \   0000003C   0xE000             B.N      ??LED_Thread1_2
+    269              else
+    270              pwm_on_time=pwm_period;
+   \                     ??LED_Thread1_1: (+1)
+   \   0000003E   0x46B1             MOV      R9,R6
+    271              
+    272              pwm_off_time=pwm_period-pwm_on_time;
+   \                     ??LED_Thread1_2: (+1)
+   \   00000040   0xEBB6 0x0009      SUBS     R0,R6,R9
+   \   00000044   0x4682             MOV      R10,R0
+    273               
+    274              cnt_change=osKernelSysTick() + change_period;
+   \   00000046   0x.... 0x....      BL       osKernelSysTick
+   \   0000004A   0xB2BF             UXTH     R7,R7            ;; ZeroExt  R7,R7,#+16,#+16
+   \   0000004C   0x1838             ADDS     R0,R7,R0
+   \   0000004E   0x0005             MOVS     R5,R0
+    275              while(cnt_change>=osKernelSysTick())
+   \                     ??LED_Thread1_3: (+1)
+   \   00000050   0x.... 0x....      BL       osKernelSysTick
+   \   00000054   0x4285             CMP      R5,R0
+   \   00000056   0xD3E9             BCC.N    ??LED_Thread1_0
+    276              {
+    277          
+    278              /* Toggle LED1 every 200 ms for 5 s */
+    279          
+    280                //BSP_LED_Toggle(LED1);
+    281                BSP_LED_On(LED1);
+   \   00000058   0x2000             MOVS     R0,#+0
+   \   0000005A   0x.... 0x....      BL       BSP_LED_On
+    282                osDelay(pwm_on_time);
+   \   0000005E   0xFA1F 0xF989      UXTH     R9,R9            ;; ZeroExt  R9,R9,#+16,#+16
+   \   00000062   0x4648             MOV      R0,R9
+   \   00000064   0x.... 0x....      BL       osDelay
+    283                BSP_LED_Off(LED1);
+   \   00000068   0x2000             MOVS     R0,#+0
+   \   0000006A   0x.... 0x....      BL       BSP_LED_Off
+    284                osDelay(pwm_off_time);
+   \   0000006E   0xFA1F 0xFA8A      UXTH     R10,R10          ;; ZeroExt  R10,R10,#+16,#+16
+   \   00000072   0x4650             MOV      R0,R10
+   \   00000074   0x.... 0x....      BL       osDelay
+   \   00000078   0xE7EA             B.N      ??LED_Thread1_3
+    285              }
+    286          
+    287              /* Resume Thread 2*/
+    288              //osThreadResume(LEDThread2Handle);
+    289            }
+    290          }
+    291          
+    292          /**
+    293            * @brief  Toggle LED2 thread
+    294            * @param  argument not used
+    295            * @retval None
+    296            */
+
+   \                                 In section .text, align 2, keep-with-next
+    297          static void uart_dma_Thread(void const *argument)
+    298          {
+   \                     uart_dma_Thread: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x0004             MOVS     R4,R0
+    299            uint32_t count;
+    300            (void) argument;
+    301          
+    302            for (;;)
+    303            {
+    304          	
+    305          		if(osSemaphoreWait( sem_uart,1)==osOK)//uart2 is free
+   \                     ??uart_dma_Thread_0: (+1)
+   \   00000004   0x2101             MOVS     R1,#+1
+   \   00000006   0x....             LDR.N    R0,??DataTable10_21
+   \   00000008   0x6800             LDR      R0,[R0, #+0]
+   \   0000000A   0x.... 0x....      BL       osSemaphoreWait
+   \   0000000E   0x2800             CMP      R0,#+0
+   \   00000010   0xD10F             BNE.N    ??uart_dma_Thread_1
+    306          		{
+    307          			//HAL_UART_DMAStop(&UartHandle);
+    308                HAL_UART_Transmit_DMA(&UartHandle,string2,strlen(string2));
+                                                                        ^
+Warning[Pe167]: argument of type "uint8_t *" is incompatible with parameter of
+          type "char const *"
+
+    uint32_t count;
+             ^
+"D:\development\stm32\src_code\stm32cubef1\en.stm32cubef1\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103ZET6_JJDK_ZK_01_V5\app\freertos\automatic_wine_machine\Src\main.c",299  Warning[Pe177]: 
+          variable "count" was declared but never referenced
+   \   00000012   0x....             LDR.N    R0,??DataTable10_22
+   \   00000014   0x6800             LDR      R0,[R0, #+0]
+   \   00000016   0x.... 0x....      BL       strlen
+   \   0000001A   0x0002             MOVS     R2,R0
+   \   0000001C   0xB292             UXTH     R2,R2            ;; ZeroExt  R2,R2,#+16,#+16
+   \   0000001E   0x....             LDR.N    R0,??DataTable10_22
+   \   00000020   0x6801             LDR      R1,[R0, #+0]
+   \   00000022   0x....             LDR.N    R0,??DataTable10_1
+   \   00000024   0x.... 0x....      BL       HAL_UART_Transmit_DMA
+    309          		  //HAL_UART_DMAStop(&UartHandle);
+    310          		osDelay(2000);	
+   \   00000028   0xF44F 0x60FA      MOV      R0,#+2000
+   \   0000002C   0x.... 0x....      BL       osDelay
+   \   00000030   0xE7E8             B.N      ??uart_dma_Thread_0
+    311                //count = osKernelSysTick() + 10000;
+    312          		}
+    313          		else
+    314          		{
+    315          		osDelay(4000);		
+   \                     ??uart_dma_Thread_1: (+1)
+   \   00000032   0xF44F 0x607A      MOV      R0,#+4000
+   \   00000036   0x.... 0x....      BL       osDelay
+   \   0000003A   0xE7E3             B.N      ??uart_dma_Thread_0
+    316          		}
+    317          
+    318            }
+    319          }
+    320          
+
+   \                                 In section .text, align 2, keep-with-next
+    321          static void uart_it_Thread(void const *argument)
+    322          {
+   \                     uart_it_Thread: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0xB082             SUB      SP,SP,#+8
+   \   00000004   0x0004             MOVS     R4,R0
+    323            uint32_t count;
+                            ^
+Warning[Pe177]: variable "count" was declared but never referenced
+    324            (void) argument;
+    325          
+    326          	  sem_uart=osSemaphoreCreate(osSemaphore(def_uart),1);
+   \   00000006   0x2101             MOVS     R1,#+1
+   \   00000008   0x....             LDR.N    R0,??DataTable10_23
+   \   0000000A   0x.... 0x....      BL       osSemaphoreCreate
+   \   0000000E   0x....             LDR.N    R1,??DataTable10_21
+   \   00000010   0x6008             STR      R0,[R1, #+0]
+    327          	 osSemaphoreRelease(sem_uart);
+   \   00000012   0x....             LDR.N    R0,??DataTable10_21
+   \   00000014   0x6800             LDR      R0,[R0, #+0]
+   \   00000016   0x.... 0x....      BL       osSemaphoreRelease
+    328          	 if(!sem_uart)
+   \   0000001A   0x....             LDR.N    R0,??DataTable10_21
+   \   0000001C   0x6800             LDR      R0,[R0, #+0]
+   \   0000001E   0x2800             CMP      R0,#+0
+   \   00000020   0xD103             BNE.N    ??uart_it_Thread_0
+    329           {
+    330          	printf("sem_uart is null!");
+   \   00000022   0x....             LDR.N    R0,??DataTable10_24
+   \   00000024   0x.... 0x....      BL       printf
+    331          	 while(1);
+   \                     ??uart_it_Thread_1: (+1)
+   \   00000028   0xE7FE             B.N      ??uart_it_Thread_1
+    332           }
+    333            for (;;)
+    334            {
+    335          	
+    336          		if(osSemaphoreWait( sem_uart,1)==osOK)//uart2 is free
+   \                     ??uart_it_Thread_0: (+1)
+   \   0000002A   0x2101             MOVS     R1,#+1
+   \   0000002C   0x....             LDR.N    R0,??DataTable10_21
+   \   0000002E   0x6800             LDR      R0,[R0, #+0]
+   \   00000030   0x.... 0x....      BL       osSemaphoreWait
+   \   00000034   0x2800             CMP      R0,#+0
+   \   00000036   0xD113             BNE.N    ??uart_it_Thread_2
+    337          		{
+    338          	       //HAL_UART_DMAStop(&UartHandle);
+    339                         //HAL_UART_Transmit_IT(&UartHandle,string1,strlen(string1));
+    340          		DEBUG("hello the message send from task1!\r\n");
+   \   00000038   0x.... 0x....      BL       osKernelSysTick
+   \   0000003C   0x0001             MOVS     R1,R0
+   \   0000003E   0x....             LDR.N    R0,??DataTable10_25
+   \   00000040   0x9000             STR      R0,[SP, #+0]
+   \   00000042   0xF44F 0x73AA      MOV      R3,#+340
+   \   00000046   0x....             LDR.N    R2,??DataTable10_26
+   \   00000048   0x....             LDR.N    R0,??DataTable10_27
+   \   0000004A   0x.... 0x....      BL       printf
+    341                          osSemaphoreRelease(sem_uart);
+   \   0000004E   0x....             LDR.N    R0,??DataTable10_21
+   \   00000050   0x6800             LDR      R0,[R0, #+0]
+   \   00000052   0x.... 0x....      BL       osSemaphoreRelease
+    342                //count = osKernelSysTick() + 10000;
+    343                          osDelay(2000);	
+   \   00000056   0xF44F 0x60FA      MOV      R0,#+2000
+   \   0000005A   0x.... 0x....      BL       osDelay
+   \   0000005E   0xE7E4             B.N      ??uart_it_Thread_0
+    344          		}
+    345          		else
+    346          		{
+    347          		osDelay(3000);	
+   \                     ??uart_it_Thread_2: (+1)
+   \   00000060   0xF640 0x30B8      MOVW     R0,#+3000
+   \   00000064   0x.... 0x....      BL       osDelay
+   \   00000068   0xE7DF             B.N      ??uart_it_Thread_0
+    348          		}
+    349          
+    350            }
+    351          }
+    352          
+
+   \                                 In section .text, align 2, keep-with-next
+    353          void vApplicationStackOverflowHook( TaskHandle_t xTask, char *pcTaskName )
+    354          {
+   \                     vApplicationStackOverflowHook: (+1)
+   \   00000000   0xB538             PUSH     {R3-R5,LR}
+   \   00000002   0x0004             MOVS     R4,R0
+   \   00000004   0x000D             MOVS     R5,R1
+    355          	printf("overflow!");
+   \   00000006   0x....             LDR.N    R0,??DataTable10_28
+   \   00000008   0x.... 0x....      BL       printf
+    356          }
+   \   0000000C   0xBD31             POP      {R0,R4,R5,PC}    ;; return
+    357          /**
+    358            * @brief  System Clock Configuration
+    359            *         The system Clock is configured as follow : 
+    360            *            System Clock source            = PLL (HSE)
+    361            *            SYSCLK(Hz)                     = 72000000
+    362            *            HCLK(Hz)                       = 72000000
+    363            *            AHB Prescaler                  = 1
+    364            *            APB1 Prescaler                 = 2
+    365            *            APB2 Prescaler                 = 1
+    366            *            HSE Frequency(Hz)              = 25000000
+    367            *            HSE PREDIV1                    = 5
+    368            *            HSE PREDIV2                    = 5
+    369            *            PLL2MUL                        = 8
+    370            *            Flash Latency(WS)              = 2
+    371            * @param  None
+    372            * @retval None
+    373            */
+
+   \                                 In section .text, align 2, keep-with-next
+    374          void SystemClock_Config(void)
+    375          {
+   \                     SystemClock_Config: (+1)
+   \   00000000   0xB500             PUSH     {LR}
+   \   00000002   0xB08F             SUB      SP,SP,#+60
+    376            RCC_ClkInitTypeDef clkinitstruct = {0};
+   \   00000004   0x4668             MOV      R0,SP
+   \   00000006   0x2114             MOVS     R1,#+20
+   \   00000008   0x.... 0x....      BL       __aeabi_memclr4
+    377            RCC_OscInitTypeDef oscinitstruct = {0};
+   \   0000000C   0xA805             ADD      R0,SP,#+20
+   \   0000000E   0x2128             MOVS     R1,#+40
+   \   00000010   0x.... 0x....      BL       __aeabi_memclr4
+    378            
+    379            /* Configure PLLs ------------------------------------------------------*/
+    380            /* PLL2 configuration: PLL2CLK = (HSE / HSEPrediv2Value) * PLL2MUL = (25 / 5) * 8 = 40 MHz */
+    381            /* PREDIV1 configuration: PREDIV1CLK = PLL2CLK / HSEPredivValue = 40 / 5 = 8 MHz */
+    382            /* PLL configuration: PLLCLK = PREDIV1CLK * PLLMUL = 8 * 9 = 72 MHz */ 
+    383          
+    384            /* Enable HSE Oscillator and activate PLL with HSE as source */
+    385            oscinitstruct.OscillatorType        = RCC_OSCILLATORTYPE_HSE;
+   \   00000014   0x2001             MOVS     R0,#+1
+   \   00000016   0x9005             STR      R0,[SP, #+20]
+    386            oscinitstruct.HSEState              = RCC_HSE_ON;
+   \   00000018   0xF45F 0x3080      MOVS     R0,#+65536
+   \   0000001C   0x9006             STR      R0,[SP, #+24]
+    387            oscinitstruct.HSEPredivValue        = RCC_HSE_PREDIV_DIV1;//RCC_HSE_PREDIV_DIV5;
+   \   0000001E   0x2000             MOVS     R0,#+0
+   \   00000020   0x9007             STR      R0,[SP, #+28]
+    388          
+    389            oscinitstruct.PLL.PLLState          = RCC_PLL_ON;
+   \   00000022   0x2002             MOVS     R0,#+2
+   \   00000024   0x900C             STR      R0,[SP, #+48]
+    390            oscinitstruct.PLL.PLLSource         = RCC_PLLSOURCE_HSE;
+   \   00000026   0xF45F 0x3080      MOVS     R0,#+65536
+   \   0000002A   0x900D             STR      R0,[SP, #+52]
+    391            oscinitstruct.PLL.PLLMUL            = RCC_PLL_MUL9;
+   \   0000002C   0xF45F 0x10E0      MOVS     R0,#+1835008
+   \   00000030   0x900E             STR      R0,[SP, #+56]
+    392          
+    393            if (HAL_RCC_OscConfig(&oscinitstruct)!= HAL_OK)
+   \   00000032   0xA805             ADD      R0,SP,#+20
+   \   00000034   0x.... 0x....      BL       HAL_RCC_OscConfig
+   \   00000038   0x2800             CMP      R0,#+0
+   \   0000003A   0xD000             BEQ.N    ??SystemClock_Config_0
+    394            {
+    395              /* Initialization Error */
+    396              while(1);
+   \                     ??SystemClock_Config_1: (+1)
+   \   0000003C   0xE7FE             B.N      ??SystemClock_Config_1
+    397            }
+    398          
+    399            /* Select PLL as system clock source and configure the HCLK, PCLK1 and PCLK2 
+    400               clocks dividers */
+    401            clkinitstruct.ClockType = (RCC_CLOCKTYPE_SYSCLK | RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2);
+   \                     ??SystemClock_Config_0: (+1)
+   \   0000003E   0x200F             MOVS     R0,#+15
+   \   00000040   0x9000             STR      R0,[SP, #+0]
+    402            clkinitstruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+   \   00000042   0x2002             MOVS     R0,#+2
+   \   00000044   0x9001             STR      R0,[SP, #+4]
+    403            clkinitstruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+   \   00000046   0x2000             MOVS     R0,#+0
+   \   00000048   0x9002             STR      R0,[SP, #+8]
+    404            clkinitstruct.APB2CLKDivider = RCC_HCLK_DIV1;
+   \   0000004A   0x2000             MOVS     R0,#+0
+   \   0000004C   0x9004             STR      R0,[SP, #+16]
+    405            clkinitstruct.APB1CLKDivider = RCC_HCLK_DIV2;  
+   \   0000004E   0xF44F 0x6080      MOV      R0,#+1024
+   \   00000052   0x9003             STR      R0,[SP, #+12]
+    406            if (HAL_RCC_ClockConfig(&clkinitstruct, FLASH_LATENCY_2)!= HAL_OK)
+   \   00000054   0x2102             MOVS     R1,#+2
+   \   00000056   0x4668             MOV      R0,SP
+   \   00000058   0x.... 0x....      BL       HAL_RCC_ClockConfig
+   \   0000005C   0x2800             CMP      R0,#+0
+   \   0000005E   0xD000             BEQ.N    ??SystemClock_Config_2
+    407            {
+    408              /* Initialization Error */
+    409              while(1); 
+   \                     ??SystemClock_Config_3: (+1)
+   \   00000060   0xE7FE             B.N      ??SystemClock_Config_3
+    410            }
+    411          }
+   \                     ??SystemClock_Config_2: (+1)
+   \   00000062   0xB00F             ADD      SP,SP,#+60
+   \   00000064   0xBD00             POP      {PC}             ;; return
+    412          
+
+   \                                 In section .text, align 2, keep-with-next
+    413          void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+    414          {
+   \                     HAL_UART_RxCpltCallback: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x0004             MOVS     R4,R0
+    415            osThreadState os_state;
+                                 ^
+Warning[Pe177]: variable "os_state" was declared but never referenced
+    416            
+    417             HAL_UART_Receive_DMA( &UartHandle,recv_store,20);
+   \   00000004   0x2214             MOVS     R2,#+20
+   \   00000006   0x....             LDR.N    R1,??DataTable10_20
+   \   00000008   0x....             LDR.N    R0,??DataTable10_1
+   \   0000000A   0x.... 0x....      BL       HAL_UART_Receive_DMA
+    418          //  os_state= osThreadGetState(LEDThread1Handle);
+    419          //  if(os_state==osThreadSuspended)
+    420          //  osThreadResume(LEDThread1Handle);
+    421          //  else
+    422          //  osThreadSuspend(LEDThread1Handle);
+    423            
+    424          }
+   \   0000000E   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+    425          void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
+    426          {
+   \                     HAL_UART_TxCpltCallback: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x0004             MOVS     R4,R0
+    427          
+    428          	printf("\r\nuart dma/it ´«ÊäÍê³É£¡");
+   \   00000004   0x....             LDR.N    R0,??DataTable10_29
+   \   00000006   0x.... 0x....      BL       printf
+    429          	osSemaphoreRelease(sem_uart);
+   \   0000000A   0x....             LDR.N    R0,??DataTable10_21
+   \   0000000C   0x6800             LDR      R0,[R0, #+0]
+   \   0000000E   0x.... 0x....      BL       osSemaphoreRelease
+    430          }
+   \   00000012   0xBD10             POP      {R4,PC}          ;; return
+    431          
+
+   \                                 In section .text, align 4, keep-with-next
+    432          void dma_transmit_complete_cb(DMA_HandleTypeDef *dma_handle)
+    433          {
+   \                     dma_transmit_complete_cb: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x0004             MOVS     R4,R0
+    434          	uint32_t i;
+                 	         ^
+Warning[Pe177]: variable "i" was declared but never referenced
+    435          	printf("\r\ndma ´«ÊäÍê³É£¡");
+   \   00000004   0x....             LDR.N    R0,??DataTable10_30
+   \   00000006   0x.... 0x....      BL       printf
+    436          /*	
+    437          	for(i=0;i<20;i++)
+    438          	printf("\r\nstring1[%d]=%d",i,string1[i]);
+    439          	
+    440          	for( i=0;i<20;i++)
+    441          	printf("\r\nstring2[%d]=%d",i,string2[i]);
+    442          	*/
+    443          }
+   \   0000000A   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+    444          void dma_transmit_half_cb(DMA_HandleTypeDef *dma_handle)
+    445          {
+   \                     dma_transmit_half_cb: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x0004             MOVS     R4,R0
+    446          	printf("\r\ndma ´«ÊäÒ»°ë£¡");
+   \   00000004   0x....             LDR.N    R0,??DataTable10_31
+   \   00000006   0x.... 0x....      BL       printf
+    447          }
+   \   0000000A   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+    448          void dma_transmit_error_cb(DMA_HandleTypeDef *dma_handle)
+    449          {
+   \                     dma_transmit_error_cb: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x0004             MOVS     R4,R0
+    450          	printf("\r\ndma ´«Êä´íÎó£¡");
+   \   00000004   0x....             LDR.N    R0,??DataTable10_32
+   \   00000006   0x.... 0x....      BL       printf
+    451          }
+   \   0000000A   0xBD10             POP      {R4,PC}          ;; return
+    452          
+    453          
+    454          /**
+    455            * @brief  Retargets the C library printf function to the USART.
+    456            * @param  None
+    457            * @retval None
+    458            */
+
+   \                                 In section .text, align 2, keep-with-next
+    459          PUTCHAR_PROTOTYPE
+    460          {
+   \                     fputc: (+1)
+   \   00000000   0xB511             PUSH     {R0,R4,LR}
+   \   00000002   0xB081             SUB      SP,SP,#+4
+   \   00000004   0x000C             MOVS     R4,R1
+    461            /* Place your implementation of fputc here */
+    462            /* e.g. write a character to the USART2 and Loop until the end of transmission */
+    463            HAL_UART_Transmit(&UartHandle, (uint8_t *)&ch, 1, 0xFFFF);
+   \   00000006   0xF64F 0x73FF      MOVW     R3,#+65535
+   \   0000000A   0x2201             MOVS     R2,#+1
+   \   0000000C   0xA901             ADD      R1,SP,#+4
+   \   0000000E   0x....             LDR.N    R0,??DataTable10_1
+   \   00000010   0x.... 0x....      BL       HAL_UART_Transmit
+    464          
+    465            return ch;
+   \   00000014   0x9801             LDR      R0,[SP, #+4]
+   \   00000016   0xBD16             POP      {R1,R2,R4,PC}    ;; return
+    466          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10:
+   \   00000000   0x40004400         DC32     0x40004400
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_1:
+   \   00000000   0x........         DC32     UartHandle
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_2:
+   \   00000000   0x........         DC32     dma_handle
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_3:
+   \   00000000   0x........         DC32     dma_handle_recv
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_4:
+   \   00000000   0x40021014         DC32     0x40021014
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_5:
+   \   00000000   0x40020080         DC32     0x40020080
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_6:
+   \   00000000   0x........         DC32     ?_2
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_7:
+   \   00000000   0x4002006C         DC32     0x4002006c
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_8:
+   \   00000000   0x........         DC32     ?_3
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_9:
+   \   00000000   0x........         DC32     ?_4
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_10:
+   \   00000000   0x........         DC32     ?_5
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_11:
+   \   00000000   0x........         DC32     ?_6
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_12:
+   \   00000000   0x........         DC32     SystemCoreClock
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_13:
+   \   00000000   0x........         DC32     ?_7
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_14:
+   \   00000000   0x........         DC32     ?_21
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_15:
+   \   00000000   0x........         DC32     ?_22
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_16:
+   \   00000000   0x........         DC32     ?_23
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_17:
+   \   00000000   0x........         DC32     LEDThread1Handle
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_18:
+   \   00000000   0x........         DC32     uart_dma_ThreadHandle
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_19:
+   \   00000000   0x........         DC32     uart_it_ThreadHandle
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_20:
+   \   00000000   0x........         DC32     recv_store
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_21:
+   \   00000000   0x........         DC32     sem_uart
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_22:
+   \   00000000   0x........         DC32     string2
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_23:
+   \   00000000   0x........         DC32     os_semaphore_def_def_uart
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_24:
+   \   00000000   0x........         DC32     ?_11
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_25:
+   \   00000000   0x........         DC32     `uart_it_Thread::__FUNCTION__`
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_26:
+   \   00000000   0x........         DC32     ?_13
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_27:
+   \   00000000   0x........         DC32     ?_12
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_28:
+   \   00000000   0x........         DC32     ?_14
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_29:
+   \   00000000   0x........         DC32     ?_17
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_30:
+   \   00000000   0x........         DC32     ?_18
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_31:
+   \   00000000   0x........         DC32     ?_19
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable10_32:
+   \   00000000   0x........         DC32     ?_20
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \   00000000   0x77 0x68          DC8 "what the fuck!!"
+   \              0x61 0x74    
+   \              0x20 0x74    
+   \              0x68 0x65    
+   \              0x20 0x66    
+   \              0x75 0x63    
+   \              0x6B 0x21    
+   \              0x21 0x00    
+
+   \                                 In section .rodata, align 4
+   \                     ?_1:
+   \   00000000   0x68 0x65          DC8 "hello world! i got it!"
+   \              0x6C 0x6C    
+   \              0x6F 0x20    
+   \              0x77 0x6F    
+   \              0x72 0x6C    
+   \              0x64 0x21    
+   \              0x20 0x69    
+   \              0x20 0x67    
+   \              0x6F 0x74    
+   \              0x20 0x69    
+   \              0x74 0x21    
+   \              0x00         
+   \   00000017   0x00               DC8 0
+
+   \                                 In section .rodata, align 4
+   \                     ?_2:
+   \   00000000   0x68 0x61          DC8 "hal_dma_init error!"
+   \              0x6C 0x5F    
+   \              0x64 0x6D    
+   \              0x61 0x5F    
+   \              0x69 0x6E    
+   \              0x69 0x74    
+   \              0x20 0x65    
+   \              0x72 0x72    
+   \              0x6F 0x72    
+   \              0x21 0x00    
+
+   \                                 In section .rodata, align 4
+   \                     ?_3:
+   \   00000000   0x68 0x61          DC8 "hal_dma_recv_init error!"
+   \              0x6C 0x5F    
+   \              0x64 0x6D    
+   \              0x61 0x5F    
+   \              0x72 0x65    
+   \              0x63 0x76    
+   \              0x5F 0x69    
+   \              0x6E 0x69    
+   \              0x74 0x20    
+   \              0x65 0x72    
+   \              0x72 0x6F    
+   \              0x72 0x21    
+   \              0x00         
+   \   00000019   0x00 0x00          DC8 0, 0, 0
+   \              0x00         
+
+   \                                 In section .rodata, align 4
+   \                     ?_4:
+   \   00000000   0x0A 0x0D          DC8 0AH, 0DH, 20H, 55H, 41H, 52H, 54H, 20H
+   \              0x20 0x55    
+   \              0x41 0x52    
+   \              0x54 0x20    
+   \   00000008   0x50 0x72          DC8 50H, 72H, 69H, 6EH, 74H, 66H, 20H, 45H
+   \              0x69 0x6E    
+   \              0x74 0x66    
+   \              0x20 0x45    
+   \   00000010   0x78 0x61          DC8 78H, 61H, 6DH, 70H, 6CH, 65H, 3AH, 20H
+   \              0x6D 0x70    
+   \              0x6C 0x65    
+   \              0x3A 0x20    
+   \   00000018   0x72 0x65          DC8 72H, 65H, 74H, 61H, 72H, 67H, 65H, 74H
+   \              0x74 0x61    
+   \              0x72 0x67    
+   \              0x65 0x74    
+   \   00000020   0x20 0x74          DC8 20H, 74H, 68H, 65H, 20H, 43H, 20H, 6CH
+   \              0x68 0x65    
+   \              0x20 0x43    
+   \              0x20 0x6C    
+   \   00000028   0x69 0x62          DC8 69H, 62H, 72H, 61H, 72H, 79H, 20H, 70H
+   \              0x72 0x61    
+   \              0x72 0x79    
+   \              0x20 0x70    
+   \   00000030   0x72 0x69          DC8 72H, 69H, 6EH, 74H, 66H, 20H, 66H, 75H
+   \              0x6E 0x74    
+   \              0x66 0x20    
+   \              0x66 0x75    
+   \   00000038   0x6E 0x63          DC8 6EH, 63H, 74H, 69H, 6FH, 6EH, 20H, 74H
+   \              0x74 0x69    
+   \              0x6F 0x6E    
+   \              0x20 0x74    
+   \   00000040   0x6F 0x20          DC8 6FH, 20H, 74H, 68H, 65H, 20H, 55H, 41H
+   \              0x74 0x68    
+   \              0x65 0x20    
+   \              0x55 0x41    
+   \   00000048   0x52 0x54          DC8 52H, 54H, 0AH, 0DH, 0
+   \              0x0A 0x0D    
+   \              0x00         
+   \   0000004D   0x00 0x00          DC8 0, 0, 0
+   \              0x00         
+
+   \                                 In section .rodata, align 4
+   \                     ?_5:
+   \   00000000   0x2A 0x2A          DC8 "*****  Test finished successfully. ** \012\015"
+   \              0x2A 0x2A    
+   \              0x2A 0x20    
+   \              0x20 0x54    
+   \              0x65 0x73    
+   \              0x74 0x20    
+   \              0x66 0x69    
+   \              0x6E 0x69    
+   \              0x73 0x68    
+   \              0x65 0x64    
+   \              0x20 0x73    
+   \              0x75 0x63    
+   \              0x63 0x65    
+   \              0x73 0x73    
+   \              0x66 0x75    
+   \              0x6C 0x6C    
+   \              0x79 0x2E    
+   \              0x20 0x2A    
+   \              0x2A 0x20    
+   \              0x0A 0x0D    
+   \              0x00         
+   \   00000029   0x00 0x00          DC8 0, 0, 0
+   \              0x00         
+
+   \                                 In section .rodata, align 4
+   \                     ?_6:
+   \   00000000   0x2A 0x2A          DC8 "*****  current baudrate is:%d\012\015"
+   \              0x2A 0x2A    
+   \              0x2A 0x20    
+   \              0x20 0x63    
+   \              0x75 0x72    
+   \              0x72 0x65    
+   \              0x6E 0x74    
+   \              0x20 0x62    
+   \              0x61 0x75    
+   \              0x64 0x72    
+   \              0x61 0x74    
+   \              0x65 0x20    
+   \              0x69 0x73    
+   \              0x3A 0x25    
+   \              0x64 0x0A    
+   \              0x0D 0x00    
+
+   \                                 In section .rodata, align 4
+   \                     ?_7:
+   \   00000000   0x2A 0x2A          DC8 "*****  current coreclock is:%d Hz\012\015"
+   \              0x2A 0x2A    
+   \              0x2A 0x20    
+   \              0x20 0x63    
+   \              0x75 0x72    
+   \              0x72 0x65    
+   \              0x6E 0x74    
+   \              0x20 0x63    
+   \              0x6F 0x72    
+   \              0x65 0x63    
+   \              0x6C 0x6F    
+   \              0x63 0x6B    
+   \              0x20 0x69    
+   \              0x73 0x3A    
+   \              0x25 0x64    
+   \              0x20 0x48    
+   \              0x7A 0x0A    
+   \              0x0D 0x00    
+
+   \                                 In section .rodata, align 4
+   \                     ?_8:
+   \   00000000   0x4C 0x45          DC8 "LED1"
+   \              0x44 0x31    
+   \              0x00         
+   \   00000005   0x00 0x00          DC8 0, 0, 0
+   \              0x00         
+
+   \                                 In section .rodata, align 4
+   \                     ?_9:
+   \   00000000   0x75 0x61          DC8 "uart_it"
+   \              0x72 0x74    
+   \              0x5F 0x69    
+   \              0x74 0x00    
+
+   \                                 In section .rodata, align 4
+   \                     ?_10:
+   \   00000000   0x75 0x61          DC8 "uart_dma"
+   \              0x72 0x74    
+   \              0x5F 0x64    
+   \              0x6D 0x61    
+   \              0x00         
+   \   00000009   0x00 0x00          DC8 0, 0, 0
+   \              0x00         
+
+   \                                 In section .rodata, align 4
+   \                     ?_11:
+   \   00000000   0x73 0x65          DC8 "sem_uart is null!"
+   \              0x6D 0x5F    
+   \              0x75 0x61    
+   \              0x72 0x74    
+   \              0x20 0x69    
+   \              0x73 0x20    
+   \              0x6E 0x75    
+   \              0x6C 0x6C    
+   \              0x21 0x00    
+   \   00000012   0x00 0x00          DC8 0, 0
+
+   \                                 In section .rodata, align 4
+   \                     ?_12:
+   \   00000000   0x5B 0x25          DC8 5BH, 25H, 31H, 36H, 64H, 5DH, 20H, 20H
+   \              0x31 0x36    
+   \              0x64 0x5D    
+   \              0x20 0x20    
+   \   00000008   0x46 0x69          DC8 46H, 69H, 6CH, 65H, 3AH, 25H, 73H, 2CH
+   \              0x6C 0x65    
+   \              0x3A 0x25    
+   \              0x73 0x2C    
+   \   00000010   0x20 0x4C          DC8 20H, 4CH, 69H, 6EH, 65H, 3AH, 25H, 64H
+   \              0x69 0x6E    
+   \              0x65 0x3A    
+   \              0x25 0x64    
+   \   00000018   0x2C 0x20          DC8 2CH, 20H, 46H, 75H, 6EH, 63H, 74H, 69H
+   \              0x46 0x75    
+   \              0x6E 0x63    
+   \              0x74 0x69    
+   \   00000020   0x6F 0x6E          DC8 6FH, 6EH, 3AH, 25H, 73H, 0DH, 0AH, 68H
+   \              0x3A 0x25    
+   \              0x73 0x0D    
+   \              0x0A 0x68    
+   \   00000028   0x65 0x6C          DC8 65H, 6CH, 6CH, 6FH, 20H, 74H, 68H, 65H
+   \              0x6C 0x6F    
+   \              0x20 0x74    
+   \              0x68 0x65    
+   \   00000030   0x20 0x6D          DC8 20H, 6DH, 65H, 73H, 73H, 61H, 67H, 65H
+   \              0x65 0x73    
+   \              0x73 0x61    
+   \              0x67 0x65    
+   \   00000038   0x20 0x73          DC8 20H, 73H, 65H, 6EH, 64H, 20H, 66H, 72H
+   \              0x65 0x6E    
+   \              0x64 0x20    
+   \              0x66 0x72    
+   \   00000040   0x6F 0x6D          DC8 6FH, 6DH, 20H, 74H, 61H, 73H, 6BH, 31H
+   \              0x20 0x74    
+   \              0x61 0x73    
+   \              0x6B 0x31    
+   \   00000048   0x21 0x0D          DC8 21H, 0DH, 0AH, 0
+   \              0x0A 0x00    
+
+   \                                 In section .rodata, align 4
+   \                     ?_13:
+   \   00000000   0x44 0x3A          DC8 44H, 3AH, 5CH, 64H, 65H, 76H, 65H, 6CH
+   \              0x5C 0x64    
+   \              0x65 0x76    
+   \              0x65 0x6C    
+   \   00000008   0x6F 0x70          DC8 6FH, 70H, 6DH, 65H, 6EH, 74H, 5CH, 73H
+   \              0x6D 0x65    
+   \              0x6E 0x74    
+   \              0x5C 0x73    
+   \   00000010   0x74 0x6D          DC8 74H, 6DH, 33H, 32H, 5CH, 73H, 72H, 63H
+   \              0x33 0x32    
+   \              0x5C 0x73    
+   \              0x72 0x63    
+   \   00000018   0x5F 0x63          DC8 5FH, 63H, 6FH, 64H, 65H, 5CH, 73H, 74H
+   \              0x6F 0x64    
+   \              0x65 0x5C    
+   \              0x73 0x74    
+   \   00000020   0x6D 0x33          DC8 6DH, 33H, 32H, 63H, 75H, 62H, 65H, 66H
+   \              0x32 0x63    
+   \              0x75 0x62    
+   \              0x65 0x66    
+   \   00000028   0x31 0x5C          DC8 31H, 5CH, 65H, 6EH, 2EH, 73H, 74H, 6DH
+   \              0x65 0x6E    
+   \              0x2E 0x73    
+   \              0x74 0x6D    
+   \   00000030   0x33 0x32          DC8 33H, 32H, 63H, 75H, 62H, 65H, 66H, 31H
+   \              0x63 0x75    
+   \              0x62 0x65    
+   \              0x66 0x31    
+   \   00000038   0x5C 0x53          DC8 5CH, 53H, 54H, 4DH, 33H, 32H, 43H, 75H
+   \              0x54 0x4D    
+   \              0x33 0x32    
+   \              0x43 0x75    
+   \   00000040   0x62 0x65          DC8 62H, 65H, 5FH, 46H, 57H, 5FH, 46H, 31H
+   \              0x5F 0x46    
+   \              0x57 0x5F    
+   \              0x46 0x31    
+   \   00000048   0x5F 0x56          DC8 5FH, 56H, 31H, 2EH, 34H, 2EH, 30H, 5CH
+   \              0x31 0x2E    
+   \              0x34 0x2E    
+   \              0x30 0x5C    
+   \   00000050   0x50 0x72          DC8 50H, 72H, 6FH, 6AH, 65H, 63H, 74H, 73H
+   \              0x6F 0x6A    
+   \              0x65 0x63    
+   \              0x74 0x73    
+   \   00000058   0x5C 0x53          DC8 5CH, 53H, 54H, 4DH, 33H, 32H, 46H, 31H
+   \              0x54 0x4D    
+   \              0x33 0x32    
+   \              0x46 0x31    
+   \   00000060   0x30 0x33          DC8 30H, 33H, 5AH, 45H, 54H, 36H, 5FH, 4AH
+   \              0x5A 0x45    
+   \              0x54 0x36    
+   \              0x5F 0x4A    
+   \   00000068   0x4A 0x44          DC8 4AH, 44H, 4BH, 5FH, 5AH, 4BH, 5FH, 30H
+   \              0x4B 0x5F    
+   \              0x5A 0x4B    
+   \              0x5F 0x30    
+   \   00000070   0x31 0x5F          DC8 31H, 5FH, 56H, 35H, 5CH, 61H, 70H, 70H
+   \              0x56 0x35    
+   \              0x5C 0x61    
+   \              0x70 0x70    
+   \   00000078   0x5C 0x66          DC8 5CH, 66H, 72H, 65H, 65H, 72H, 74H, 6FH
+   \              0x72 0x65    
+   \              0x65 0x72    
+   \              0x74 0x6F    
+   \   00000080   0x73 0x5C          DC8 73H, 5CH, 61H, 75H, 74H, 6FH, 6DH, 61H
+   \              0x61 0x75    
+   \              0x74 0x6F    
+   \              0x6D 0x61    
+   \   00000088   0x74 0x69          DC8 74H, 69H, 63H, 5FH, 77H, 69H, 6EH, 65H
+   \              0x63 0x5F    
+   \              0x77 0x69    
+   \              0x6E 0x65    
+   \   00000090   0x5F 0x6D          DC8 5FH, 6DH, 61H, 63H, 68H, 69H, 6EH, 65H
+   \              0x61 0x63    
+   \              0x68 0x69    
+   \              0x6E 0x65    
+   \   00000098   0x5C 0x53          DC8 5CH, 53H, 72H, 63H, 5CH, 6DH, 61H, 69H
+   \              0x72 0x63    
+   \              0x5C 0x6D    
+   \              0x61 0x69    
+   \   000000A0   0x6E 0x2E          DC8 6EH, 2EH, 63H, 0
+   \              0x63 0x00    
+
+   \                                 In section .rodata, align 4
+   \                     ?_14:
+   \   00000000   0x6F 0x76          DC8 "overflow!"
+   \              0x65 0x72    
+   \              0x66 0x6C    
+   \              0x6F 0x77    
+   \              0x21 0x00    
+   \   0000000A   0x00 0x00          DC8 0, 0
+
+   \                                 In section .rodata, align 4
+   \   00000000   0x00000000         DC32 0, 0, 0, 0, 0
+   \              0x00000000   
+   \              0x00000000   
+   \              0x00000000   
+   \              0x00000000   
+
+   \                                 In section .rodata, align 4
+   \   00000000   0x00000000         DC32 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00000000   
+   \              0x00000000   
+   \              0x00000000   
+   \              0x00000000   
+   \              0x00000000   
+   \              0x00000000   
+   \              0x00000000   
+   \              0x00000000   
+   \              0x00000000   
+
+   \                                 In section .rodata, align 4
+   \                     ?_17:
+   \   00000000   0x0D 0x0A          DC8 "\015\012uart dma/it \264\253\312\344\315\352\263\311\243\241"
+   \              0x75 0x61    
+   \              0x72 0x74    
+   \              0x20 0x64    
+   \              0x6D 0x61    
+   \              0x2F 0x69    
+   \              0x74 0x20    
+   \              0xB4 0xAB    
+   \              0xCA 0xE4    
+   \              0xCD 0xEA    
+   \              0xB3 0xC9    
+   \              0xA3 0xA1    
+   \              0x00         
+   \   00000019   0x00 0x00          DC8 0, 0, 0
+   \              0x00         
+
+   \                                 In section .rodata, align 4
+   \                     ?_18:
+   \   00000000   0x0D 0x0A          DC8 "\015\012dma \264\253\312\344\315\352\263\311\243\241"
+   \              0x64 0x6D    
+   \              0x61 0x20    
+   \              0xB4 0xAB    
+   \              0xCA 0xE4    
+   \              0xCD 0xEA    
+   \              0xB3 0xC9    
+   \              0xA3 0xA1    
+   \              0x00         
+   \   00000011   0x00 0x00          DC8 0, 0, 0
+   \              0x00         
+
+   \                                 In section .rodata, align 4
+   \                     ?_19:
+   \   00000000   0x0D 0x0A          DC8 "\015\012dma \264\253\312\344\322\273\260\353\243\241"
+   \              0x64 0x6D    
+   \              0x61 0x20    
+   \              0xB4 0xAB    
+   \              0xCA 0xE4    
+   \              0xD2 0xBB    
+   \              0xB0 0xEB    
+   \              0xA3 0xA1    
+   \              0x00         
+   \   00000011   0x00 0x00          DC8 0, 0, 0
+   \              0x00         
+
+   \                                 In section .rodata, align 4
+   \                     ?_20:
+   \   00000000   0x0D 0x0A          DC8 "\015\012dma \264\253\312\344\264\355\316\363\243\241"
+   \              0x64 0x6D    
+   \              0x61 0x20    
+   \              0xB4 0xAB    
+   \              0xCA 0xE4    
+   \              0xB4 0xED    
+   \              0xCE 0xF3    
+   \              0xA3 0xA1    
+   \              0x00         
+   \   00000011   0x00 0x00          DC8 0, 0, 0
+   \              0x00         
+    467          
+    468          /**
+    469            * @brief  System Clock Configuration
+    470            *         The system Clock is configured as follow : 
+    471            *            System Clock source            = PLL (HSE)
+    472            *            SYSCLK(Hz)                     = 72000000
+    473            *            HCLK(Hz)                       = 72000000
+    474            *            AHB Prescaler                  = 1
+    475            *            APB1 Prescaler                 = 2
+    476            *            APB2 Prescaler                 = 1
+    477            *            HSE Frequency(Hz)              = 25000000
+    478            *            HSE PREDIV1                    = 5
+    479            *            HSE PREDIV2                    = 5
+    480            *            PLL2MUL                        = 8
+    481            *            Flash Latency(WS)              = 2
+    482            * @param  None
+    483            * @retval None
+    484            */
+    485          
+    486          
+    487          #ifdef  USE_FULL_ASSERT
+    488          
+    489          /**
+    490            * @brief  Reports the name of the source file and the source line number
+    491            *   where the assert_param error has occurred.
+    492            * @param  file: pointer to the source file name
+    493            * @param  line: assert_param error line source number
+    494            * @retval None
+    495            */
+    496          void assert_failed(uint8_t *file, uint32_t line)
+    497          {
+    498            /* User can add his own implementation to report the file name and line number,
+    499               ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+    500          
+    501            /* Infinite loop */
+    502            while (1)
+    503            {}
+    504          }
+    505          #endif
+    506          
+    507          /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   Error_Handler
+       8   HAL_UART_RxCpltCallback
+         8   -> HAL_UART_Receive_DMA
+       8   HAL_UART_TxCpltCallback
+         8   -> osSemaphoreRelease
+         8   -> printf
+      40   LED_Thread1
+        40   -> BSP_LED_Off
+        40   -> BSP_LED_On
+        40   -> HAL_UART_Receive_DMA
+        40   -> osDelay
+        40   -> osKernelSysTick
+      64   SystemClock_Config
+        64   -> HAL_RCC_ClockConfig
+        64   -> HAL_RCC_OscConfig
+        64   -> __aeabi_memclr4
+       8   dma_transmit_complete_cb
+         8   -> printf
+       8   dma_transmit_error_cb
+         8   -> printf
+       8   dma_transmit_half_cb
+         8   -> printf
+      16   fputc
+        16   -> HAL_UART_Transmit
+      64   main
+        64   -> BSP_LED_Init
+        64   -> Error_Handler
+        64   -> HAL_DMA_Init
+        64   -> HAL_Init
+        64   -> HAL_NVIC_EnableIRQ
+        64   -> HAL_NVIC_SetPriority
+        64   -> HAL_UART_Init
+        64   -> SystemClock_Config
+        64   -> __aeabi_memcpy4
+        64   -> do_something
+        64   -> osKernelStart
+        64   -> osThreadCreate
+        64   -> printf
+       8   uart_dma_Thread
+         8   -> HAL_UART_Transmit_DMA
+         8   -> osDelay
+         8   -> osSemaphoreWait
+         8   -> strlen
+      16   uart_it_Thread
+        16   -> osDelay
+        16   -> osKernelSysTick
+        16   -> osSemaphoreCreate
+        16   -> osSemaphoreRelease
+        16   -> osSemaphoreWait
+        16   -> printf
+      16   vApplicationStackOverflowHook
+        16   -> printf
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable10
+       4  ??DataTable10_1
+       4  ??DataTable10_10
+       4  ??DataTable10_11
+       4  ??DataTable10_12
+       4  ??DataTable10_13
+       4  ??DataTable10_14
+       4  ??DataTable10_15
+       4  ??DataTable10_16
+       4  ??DataTable10_17
+       4  ??DataTable10_18
+       4  ??DataTable10_19
+       4  ??DataTable10_2
+       4  ??DataTable10_20
+       4  ??DataTable10_21
+       4  ??DataTable10_22
+       4  ??DataTable10_23
+       4  ??DataTable10_24
+       4  ??DataTable10_25
+       4  ??DataTable10_26
+       4  ??DataTable10_27
+       4  ??DataTable10_28
+       4  ??DataTable10_29
+       4  ??DataTable10_3
+       4  ??DataTable10_30
+       4  ??DataTable10_31
+       4  ??DataTable10_32
+       4  ??DataTable10_4
+       4  ??DataTable10_5
+       4  ??DataTable10_6
+       4  ??DataTable10_7
+       4  ??DataTable10_8
+       4  ??DataTable10_9
+      16  ?_0
+      24  ?_1
+      12  ?_10
+      20  ?_11
+      76  ?_12
+     164  ?_13
+      12  ?_14
+      20  ?_15
+      40  ?_16
+      28  ?_17
+      20  ?_18
+      20  ?_19
+      20  ?_2
+      20  ?_20
+      20  ?_21
+      20  ?_22
+      20  ?_23
+      28  ?_3
+      80  ?_4
+      44  ?_5
+      32  ?_6
+      36  ?_7
+       8  ?_8
+       8  ?_9
+       2  Error_Handler
+      16  HAL_UART_RxCpltCallback
+      20  HAL_UART_TxCpltCallback
+       4  LEDThread1Handle
+     122  LED_Thread1
+     102  SystemClock_Config
+      64  UartHandle
+      56  dma_handle
+      56  dma_handle_recv
+      12  dma_transmit_complete_cb
+      12  dma_transmit_error_cb
+      12  dma_transmit_half_cb
+      24  fputc
+     522  main
+       4  os_semaphore_def_def_uart
+      20  recv_store
+       4  sem_uart
+       4  string1
+       4  string2
+      60  uart_dma_Thread
+       4  uart_dma_ThreadHandle
+     106  uart_it_Thread
+       4  uart_it_ThreadHandle
+      14  vApplicationStackOverflowHook
+      16  -- Other
+
+ 
+   212 bytes in section .bss
+     8 bytes in section .data
+   808 bytes in section .rodata
+ 1 156 bytes in section .text
+ 
+ 1 156 bytes of CODE  memory
+   808 bytes of CONST memory
+   220 bytes of DATA  memory
+
+Errors: none
+Warnings: 6
