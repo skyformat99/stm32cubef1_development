@@ -89,7 +89,7 @@ int main(void)
   BSP_LED_Init(LED2);
   
   /* Configure Key button for remote wakeup */
-  BSP_PB_Init(BUTTON_USER, BUTTON_MODE_EXTI);
+  //BSP_PB_Init(BUTTON_USER, BUTTON_MODE_EXTI);
 
   /* Init Device Library */
   USBD_Init(&USBD_Device, &HID_Desc, 0);

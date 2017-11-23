@@ -185,7 +185,7 @@ void BSP_LED_Init(Led_TypeDef Led)
   gpioinitstruct.Pin    = LED_PIN[Led];
   gpioinitstruct.Mode   = GPIO_MODE_OUTPUT_PP;
   gpioinitstruct.Pull   = GPIO_NOPULL;
-  gpioinitstruct.Speed  = GPIO_SPEED_FREQ_HIGH;
+  gpioinitstruct.Speed  = GPIO_SPEED_FREQ_LOW;
   
   HAL_GPIO_Init(LED_PORT[Led], &gpioinitstruct);
 
